@@ -1,0 +1,961 @@
+{
+  "meta" : {
+    "view" : {
+      "id" : "gcs8-gqvd",
+      "name" : "Hawaii State Ethics Commission's 2016 Legislator Financial Disclosure",
+      "averageRating" : 0,
+      "createdAt" : 1453329714,
+      "displayType" : "table",
+      "downloadCount" : 33,
+      "hideFromCatalog" : false,
+      "hideFromDataJson" : false,
+      "indexUpdatedAt" : 1486757254,
+      "newBackend" : false,
+      "numberOfComments" : 0,
+      "oid" : 25421138,
+      "provenance" : "official",
+      "publicationAppendEnabled" : false,
+      "publicationDate" : 1486757186,
+      "publicationGroup" : 1301709,
+      "publicationStage" : "published",
+      "rowsUpdatedAt" : 1486757161,
+      "rowsUpdatedBy" : "ikz2-vjne",
+      "tableId" : 14036052,
+      "totalTimesRated" : 0,
+      "viewCount" : 1200,
+      "viewLastModified" : 1485551439,
+      "viewType" : "tabular",
+      "columns" : [ {
+        "id" : -1,
+        "name" : "sid",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":sid",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : { },
+        "flags" : [ "hidden" ]
+      }, {
+        "id" : -1,
+        "name" : "id",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":id",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : { },
+        "flags" : [ "hidden" ]
+      }, {
+        "id" : -1,
+        "name" : "position",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":position",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : { },
+        "flags" : [ "hidden" ]
+      }, {
+        "id" : -1,
+        "name" : "created_at",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":created_at",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : { },
+        "flags" : [ "hidden" ]
+      }, {
+        "id" : -1,
+        "name" : "created_meta",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":created_meta",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : { },
+        "flags" : [ "hidden" ]
+      }, {
+        "id" : -1,
+        "name" : "updated_at",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":updated_at",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : { },
+        "flags" : [ "hidden" ]
+      }, {
+        "id" : -1,
+        "name" : "updated_meta",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":updated_meta",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : { },
+        "flags" : [ "hidden" ]
+      }, {
+        "id" : -1,
+        "name" : "meta",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":meta",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : { },
+        "flags" : [ "hidden" ]
+      }, {
+        "id" : 289681248,
+        "name" : "Filer",
+        "dataTypeName" : "text",
+        "fieldName" : "filer",
+        "position" : 1,
+        "renderTypeName" : "text",
+        "tableColumnId" : 15747009,
+        "width" : 231,
+        "cachedContents" : {
+          "largest" : "Yamashita, Kyle T.",
+          "non_null" : 79,
+          "null" : 0,
+          "top" : [ {
+            "item" : "Thielen, Laura H.",
+            "count" : 20
+          }, {
+            "item" : "Saiki, Scott K.",
+            "count" : 19
+          }, {
+            "item" : "Harimoto, Breene Y.",
+            "count" : 18
+          }, {
+            "item" : "Takayama, Gregg T.",
+            "count" : 17
+          }, {
+            "item" : "Choy, Isaac William",
+            "count" : 16
+          }, {
+            "item" : "Oshiro, Marcus R.",
+            "count" : 15
+          }, {
+            "item" : "Ihara, Les S.",
+            "count" : 14
+          }, {
+            "item" : "Riviere, Gilbert R.",
+            "count" : 13
+          }, {
+            "item" : "Har, Sharon E.",
+            "count" : 12
+          }, {
+            "item" : "Nakashima, Mark M.",
+            "count" : 11
+          }, {
+            "item" : "Belatti, Della Au",
+            "count" : 10
+          }, {
+            "item" : "Galuteria, Brickwood M.",
+            "count" : 9
+          }, {
+            "item" : "Souki, Joseph Mark",
+            "count" : 8
+          }, {
+            "item" : "Brower, Thomas M.",
+            "count" : 7
+          }, {
+            "item" : "Johanson, Aaron L.",
+            "count" : 6
+          }, {
+            "item" : "Onishi, Richard H.K.",
+            "count" : 5
+          }, {
+            "item" : "Tupola, Andria P.",
+            "count" : 4
+          }, {
+            "item" : "Lowen, Nicole E.",
+            "count" : 3
+          }, {
+            "item" : "Kidani, Michelle N.",
+            "count" : 2
+          }, {
+            "item" : "Creagan, Richard P.",
+            "count" : 1
+          } ],
+          "smallest" : "Aquino, Henry James C."
+        },
+        "format" : {
+          "align" : "left"
+        }
+      }, {
+        "id" : 289681249,
+        "name" : "View",
+        "dataTypeName" : "url",
+        "fieldName" : "financial_disclosure",
+        "position" : 2,
+        "renderTypeName" : "url",
+        "tableColumnId" : 15747017,
+        "width" : 50,
+        "cachedContents" : {
+          "largest" : {
+            "description" : "Form",
+            "url" : "http://files.hawaii.gov/ethics/disc/2016/Kfx10Dis-11734.pdf"
+          },
+          "non_null" : 79,
+          "null" : 0,
+          "top" : [ {
+            "item" : {
+              "description" : "Form",
+              "url" : "http://files.hawaii.gov/ethics/disc/2016/FinLong_8871.pdf"
+            },
+            "count" : 20
+          }, {
+            "item" : {
+              "description" : "Form",
+              "url" : "http://files.hawaii.gov/ethics/disc/2016/FinLong_8877.pdf"
+            },
+            "count" : 19
+          }, {
+            "item" : {
+              "description" : "Form",
+              "url" : "http://files.hawaii.gov/ethics/disc/2016/FinLong_8878.pdf"
+            },
+            "count" : 18
+          }, {
+            "item" : {
+              "description" : "Form",
+              "url" : "http://files.hawaii.gov/ethics/disc/2016/FinLong_8879.pdf"
+            },
+            "count" : 17
+          }, {
+            "item" : {
+              "description" : "Form",
+              "url" : "http://files.hawaii.gov/ethics/disc/2016/FinLong_8882.pdf"
+            },
+            "count" : 16
+          }, {
+            "item" : {
+              "description" : "Form",
+              "url" : "http://files.hawaii.gov/ethics/disc/2016/FinLong_8884.pdf"
+            },
+            "count" : 15
+          }, {
+            "item" : {
+              "description" : "Form",
+              "url" : "http://files.hawaii.gov/ethics/disc/2016/FinLong_8885.pdf"
+            },
+            "count" : 14
+          }, {
+            "item" : {
+              "description" : "Form",
+              "url" : "http://files.hawaii.gov/ethics/disc/2016/FinLong_8886.pdf"
+            },
+            "count" : 13
+          }, {
+            "item" : {
+              "description" : "Form",
+              "url" : "http://files.hawaii.gov/ethics/disc/2016/FinLong_8890.pdf"
+            },
+            "count" : 12
+          }, {
+            "item" : {
+              "description" : "Form",
+              "url" : "http://files.hawaii.gov/ethics/disc/2016/FinLong_8895.pdf"
+            },
+            "count" : 11
+          }, {
+            "item" : {
+              "description" : "Form",
+              "url" : "http://files.hawaii.gov/ethics/disc/2016/FinShort_8896.pdf"
+            },
+            "count" : 10
+          }, {
+            "item" : {
+              "description" : "Form",
+              "url" : "http://files.hawaii.gov/ethics/disc/2016/Kfx10Dis-11208.pdf"
+            },
+            "count" : 9
+          }, {
+            "item" : {
+              "description" : "Form",
+              "url" : "http://files.hawaii.gov/ethics/disc/2016/FinLong_8914.pdf"
+            },
+            "count" : 8
+          }, {
+            "item" : {
+              "description" : "Form",
+              "url" : "http://files.hawaii.gov/ethics/disc/2016/FinLong_8887.pdf"
+            },
+            "count" : 7
+          }, {
+            "item" : {
+              "description" : "Form",
+              "url" : "http://files.hawaii.gov/ethics/disc/2016/Kfx10Dis-11218.pdf"
+            },
+            "count" : 6
+          }, {
+            "item" : {
+              "description" : "Form",
+              "url" : "http://files.hawaii.gov/ethics/disc/2016/Kfx10Dis-11243.pdf"
+            },
+            "count" : 5
+          }, {
+            "item" : {
+              "description" : "Form",
+              "url" : "http://files.hawaii.gov/ethics/disc/2016/FinLong_8920.pdf"
+            },
+            "count" : 4
+          }, {
+            "item" : {
+              "description" : "Form",
+              "url" : "http://files.hawaii.gov/ethics/disc/2016/FinLong_8926.pdf"
+            },
+            "count" : 3
+          }, {
+            "item" : {
+              "description" : "Form",
+              "url" : "http://files.hawaii.gov/ethics/disc/2016/FinLong_8927.pdf"
+            },
+            "count" : 2
+          }, {
+            "item" : {
+              "description" : "Form",
+              "url" : "http://files.hawaii.gov/ethics/disc/2016/FinLong_8932.pdf"
+            },
+            "count" : 1
+          } ],
+          "smallest" : {
+            "description" : "Form",
+            "url" : "http://files.hawaii.gov/ethics/disc/2016/FinLong_8458.pdf"
+          }
+        },
+        "format" : {
+          "align" : "center"
+        },
+        "subColumnTypes" : [ "url", "description" ]
+      }, {
+        "id" : 289681250,
+        "name" : "Title",
+        "dataTypeName" : "text",
+        "fieldName" : "title",
+        "position" : 3,
+        "renderTypeName" : "text",
+        "tableColumnId" : 15747011,
+        "width" : 118,
+        "cachedContents" : {
+          "largest" : "Legislator, District 9",
+          "non_null" : 79,
+          "null" : 0,
+          "top" : [ {
+            "item" : "Legislator, District 17",
+            "count" : 20
+          }, {
+            "item" : "Legislator, District 7",
+            "count" : 19
+          }, {
+            "item" : "Legislator, District 10",
+            "count" : 18
+          }, {
+            "item" : "Legislator, District 25",
+            "count" : 17
+          }, {
+            "item" : "Legislator, District 21",
+            "count" : 16
+          }, {
+            "item" : "Legislator, District 19",
+            "count" : 15
+          }, {
+            "item" : "Legislator, District 20",
+            "count" : 14
+          }, {
+            "item" : "Legislator, District 12",
+            "count" : 13
+          }, {
+            "item" : "Legislator, District 22",
+            "count" : 12
+          }, {
+            "item" : "Legislator, District 5",
+            "count" : 11
+          }, {
+            "item" : "Legislator, District 24",
+            "count" : 10
+          }, {
+            "item" : "Legislator, District 4",
+            "count" : 9
+          }, {
+            "item" : "Legislator, District 16",
+            "count" : 8
+          }, {
+            "item" : "Legislator, District 23",
+            "count" : 7
+          }, {
+            "item" : "Legislator, District 3",
+            "count" : 6
+          }, {
+            "item" : "Legislator, District 43",
+            "count" : 5
+          }, {
+            "item" : "Legislator, District 6",
+            "count" : 4
+          }, {
+            "item" : "Legislator, District 18",
+            "count" : 3
+          }, {
+            "item" : "Legislator, District 8",
+            "count" : 2
+          }, {
+            "item" : "Legislator, District 39",
+            "count" : 1
+          } ],
+          "smallest" : "Legislator, District 1"
+        },
+        "format" : { }
+      }, {
+        "id" : 289681251,
+        "name" : "Dept/Board",
+        "dataTypeName" : "text",
+        "fieldName" : "dept_board",
+        "position" : 4,
+        "renderTypeName" : "text",
+        "tableColumnId" : 15747010,
+        "width" : 161,
+        "cachedContents" : {
+          "largest" : "Senate",
+          "non_null" : 79,
+          "null" : 0,
+          "top" : [ {
+            "item" : "Senate",
+            "count" : 20
+          }, {
+            "item" : "House of Representatives",
+            "count" : 19
+          } ],
+          "smallest" : "House of Representatives"
+        },
+        "format" : { }
+      }, {
+        "id" : 289681254,
+        "name" : "Date Filed",
+        "dataTypeName" : "calendar_date",
+        "fieldName" : "date_filed",
+        "position" : 5,
+        "renderTypeName" : "calendar_date",
+        "tableColumnId" : 15747013,
+        "width" : 78,
+        "cachedContents" : {
+          "largest" : "2016-10-07T00:00:00",
+          "non_null" : 79,
+          "null" : 0,
+          "top" : [ {
+            "item" : "2016-01-03T00:00:00",
+            "count" : 20
+          }, {
+            "item" : "2016-01-06T00:00:00",
+            "count" : 19
+          }, {
+            "item" : "2016-01-07T00:00:00",
+            "count" : 18
+          }, {
+            "item" : "2016-01-10T00:00:00",
+            "count" : 17
+          }, {
+            "item" : "2016-01-11T00:00:00",
+            "count" : 16
+          }, {
+            "item" : "2016-01-14T00:00:00",
+            "count" : 15
+          }, {
+            "item" : "2016-01-19T00:00:00",
+            "count" : 14
+          }, {
+            "item" : "2016-01-23T00:00:00",
+            "count" : 13
+          }, {
+            "item" : "2016-01-24T00:00:00",
+            "count" : 12
+          }, {
+            "item" : "2016-01-25T00:00:00",
+            "count" : 11
+          }, {
+            "item" : "2016-01-27T00:00:00",
+            "count" : 10
+          }, {
+            "item" : "2016-01-26T00:00:00",
+            "count" : 9
+          }, {
+            "item" : "2016-01-28T00:00:00",
+            "count" : 8
+          }, {
+            "item" : "2016-01-29T00:00:00",
+            "count" : 7
+          }, {
+            "item" : "2016-01-30T00:00:00",
+            "count" : 6
+          }, {
+            "item" : "2016-01-31T00:00:00",
+            "count" : 5
+          }, {
+            "item" : "2016-02-01T00:00:00",
+            "count" : 4
+          }, {
+            "item" : "2016-02-03T00:00:00",
+            "count" : 3
+          }, {
+            "item" : "2016-03-09T00:00:00",
+            "count" : 2
+          }, {
+            "item" : "2016-03-31T00:00:00",
+            "count" : 1
+          } ],
+          "smallest" : "2016-01-03T00:00:00"
+        },
+        "format" : {
+          "view" : "date",
+          "align" : "center"
+        }
+      }, {
+        "id" : 289681255,
+        "name" : "Original",
+        "dataTypeName" : "checkbox",
+        "fieldName" : "original",
+        "position" : 6,
+        "renderTypeName" : "checkbox",
+        "tableColumnId" : 15747015,
+        "width" : 50,
+        "cachedContents" : {
+          "largest" : true,
+          "non_null" : 79,
+          "null" : 0,
+          "top" : [ {
+            "item" : true,
+            "count" : 20
+          } ],
+          "smallest" : true
+        },
+        "format" : { }
+      }, {
+        "id" : 289681256,
+        "name" : "Amended",
+        "dataTypeName" : "checkbox",
+        "fieldName" : "amended",
+        "position" : 7,
+        "renderTypeName" : "checkbox",
+        "tableColumnId" : 15747016,
+        "width" : 50,
+        "cachedContents" : {
+          "largest" : true,
+          "non_null" : 79,
+          "null" : 0,
+          "top" : [ {
+            "item" : false,
+            "count" : 20
+          }, {
+            "item" : true,
+            "count" : 19
+          } ],
+          "smallest" : false
+        },
+        "format" : { }
+      }, {
+        "id" : 289681252,
+        "name" : "File Type",
+        "dataTypeName" : "text",
+        "fieldName" : "file_type",
+        "position" : 8,
+        "renderTypeName" : "text",
+        "tableColumnId" : 15747012,
+        "width" : 110,
+        "cachedContents" : {
+          "largest" : "Financial",
+          "non_null" : 79,
+          "null" : 0,
+          "top" : [ {
+            "item" : "Financial",
+            "count" : 20
+          } ],
+          "smallest" : "Financial"
+        },
+        "format" : { }
+      }, {
+        "id" : 289681253,
+        "name" : "File Year",
+        "dataTypeName" : "text",
+        "fieldName" : "file_year",
+        "position" : 9,
+        "renderTypeName" : "text",
+        "tableColumnId" : 15747014,
+        "width" : 58,
+        "cachedContents" : {
+          "largest" : "2016",
+          "non_null" : 79,
+          "null" : 0,
+          "top" : [ {
+            "item" : "2016",
+            "count" : 20
+          } ],
+          "smallest" : "2016"
+        },
+        "format" : {
+          "align" : "center"
+        }
+      } ],
+      "grants" : [ {
+        "inherited" : true,
+        "type" : "viewer",
+        "flags" : [ "public" ]
+      } ],
+      "metadata" : {
+        "custom_fields" : {
+          "Hawaii Line of Business" : {
+            "Division name" : "",
+            "Division shortname, acronym" : "",
+            "Department Agency short name, acronym" : "Hawaii State Ethics Commission",
+            "Department/Agency" : "Legislature",
+            "State of Hawaii Data Book Category" : "",
+            "Line of Business" : ""
+          },
+          "Terms of Use Acknowledgement" : {
+            "I agree by uploading this dataset that it contains no private information, and adheres to the data.hawaii.gov terms of use." : "yes"
+          },
+          "Data Reference" : {
+            "Period of Coverage" : "",
+            "Date Updated" : "",
+            "Date Released" : "",
+            "Frequency" : "",
+            "Reference for Technical Information" : "",
+            "Unit of Analysis" : "",
+            "Data dictionary/variable list" : ""
+          }
+        },
+        "renderTypeConfig" : {
+          "visible" : {
+            "table" : true
+          }
+        },
+        "availableDisplayTypes" : [ "table", "fatrow", "page" ],
+        "jsonQuery" : {
+          "order" : [ {
+            "ascending" : true,
+            "columnFieldName" : "dept_board"
+          }, {
+            "ascending" : true,
+            "columnFieldName" : "filer"
+          }, {
+            "ascending" : false,
+            "columnFieldName" : "date_filed"
+          }, {
+            "ascending" : false,
+            "columnFieldName" : "original"
+          } ],
+          "where" : {
+            "children" : [ {
+              "value" : "Legislator",
+              "operator" : "STARTS_WITH",
+              "columnFieldName" : "title",
+              "metadata" : {
+                "freeform" : false,
+                "tableColumnId" : {
+                  "1301709" : 15747011
+                },
+                "operator" : "STARTS_WITH"
+              }
+            }, {
+              "value" : "2016",
+              "operator" : "EQUALS",
+              "columnFieldName" : "file_year",
+              "metadata" : {
+                "freeform" : false,
+                "tableColumnId" : {
+                  "1301709" : 15747014
+                },
+                "operator" : "EQUALS"
+              }
+            }, {
+              "value" : "Financial",
+              "operator" : "EQUALS",
+              "columnFieldName" : "file_type",
+              "metadata" : {
+                "freeform" : false,
+                "tableColumnId" : {
+                  "1301709" : 15747012
+                },
+                "operator" : "EQUALS"
+              }
+            } ],
+            "operator" : "AND",
+            "metadata" : {
+              "unifiedVersion" : 2
+            }
+          }
+        }
+      },
+      "owner" : {
+        "id" : "ikz2-vjne",
+        "displayName" : "PatrickLui",
+        "roleName" : "editor",
+        "screenName" : "PatrickLui",
+        "rights" : [ "create_datasets", "view_domain", "create_pages", "view_goals", "view_dashboards", "view_story", "view_unpublished_story" ]
+      },
+      "query" : {
+        "filterCondition" : {
+          "type" : "operator",
+          "value" : "AND",
+          "children" : [ {
+            "type" : "operator",
+            "value" : "OR",
+            "children" : [ {
+              "type" : "operator",
+              "value" : "STARTS_WITH",
+              "children" : [ {
+                "columnId" : 289681250,
+                "type" : "column"
+              }, {
+                "type" : "literal",
+                "value" : "Legislator"
+              } ],
+              "metadata" : {
+                "freeform" : false
+              }
+            } ],
+            "metadata" : {
+              "freeform" : false,
+              "tableColumnId" : {
+                "1301709" : 15747011
+              },
+              "operator" : "STARTS_WITH"
+            }
+          }, {
+            "type" : "operator",
+            "value" : "OR",
+            "children" : [ {
+              "type" : "operator",
+              "value" : "EQUALS",
+              "children" : [ {
+                "columnId" : 289681253,
+                "type" : "column"
+              }, {
+                "type" : "literal",
+                "value" : "2016"
+              } ],
+              "metadata" : {
+                "freeform" : false
+              }
+            } ],
+            "metadata" : {
+              "tableColumnId" : {
+                "1301709" : 15747014
+              },
+              "operator" : "EQUALS"
+            }
+          }, {
+            "type" : "operator",
+            "value" : "OR",
+            "children" : [ {
+              "type" : "operator",
+              "value" : "EQUALS",
+              "children" : [ {
+                "columnId" : 289681252,
+                "type" : "column"
+              }, {
+                "type" : "literal",
+                "value" : "Financial"
+              } ],
+              "metadata" : {
+                "freeform" : false
+              }
+            } ],
+            "metadata" : {
+              "tableColumnId" : {
+                "1301709" : 15747012
+              },
+              "operator" : "EQUALS"
+            }
+          } ],
+          "metadata" : {
+            "unifiedVersion" : 2
+          }
+        },
+        "orderBys" : [ {
+          "ascending" : true,
+          "expression" : {
+            "columnId" : 289681251,
+            "type" : "column"
+          }
+        }, {
+          "ascending" : true,
+          "expression" : {
+            "columnId" : 289681248,
+            "type" : "column"
+          }
+        }, {
+          "ascending" : false,
+          "expression" : {
+            "columnId" : 289681254,
+            "type" : "column"
+          }
+        }, {
+          "ascending" : false,
+          "expression" : {
+            "columnId" : 289681255,
+            "type" : "column"
+          }
+        } ]
+      },
+      "rights" : [ "read" ],
+      "tableAuthor" : {
+        "id" : "ikz2-vjne",
+        "displayName" : "PatrickLui",
+        "roleName" : "editor",
+        "screenName" : "PatrickLui",
+        "rights" : [ "create_datasets", "view_domain", "create_pages", "view_goals", "view_dashboards", "view_story", "view_unpublished_story" ]
+      },
+      "viewFilters" : {
+        "type" : "operator",
+        "value" : "AND",
+        "children" : [ {
+          "type" : "operator",
+          "value" : "OR",
+          "children" : [ {
+            "type" : "operator",
+            "value" : "STARTS_WITH",
+            "children" : [ {
+              "columnId" : 289681250,
+              "type" : "column"
+            }, {
+              "type" : "literal",
+              "value" : "Legislator"
+            } ],
+            "metadata" : {
+              "freeform" : false
+            }
+          } ],
+          "metadata" : {
+            "freeform" : false,
+            "tableColumnId" : {
+              "1301709" : 15747011
+            },
+            "operator" : "STARTS_WITH"
+          }
+        }, {
+          "type" : "operator",
+          "value" : "OR",
+          "children" : [ {
+            "type" : "operator",
+            "value" : "EQUALS",
+            "children" : [ {
+              "columnId" : 289681253,
+              "type" : "column"
+            }, {
+              "type" : "literal",
+              "value" : "2016"
+            } ],
+            "metadata" : {
+              "freeform" : false
+            }
+          } ],
+          "metadata" : {
+            "tableColumnId" : {
+              "1301709" : 15747014
+            },
+            "operator" : "EQUALS"
+          }
+        }, {
+          "type" : "operator",
+          "value" : "OR",
+          "children" : [ {
+            "type" : "operator",
+            "value" : "EQUALS",
+            "children" : [ {
+              "columnId" : 289681252,
+              "type" : "column"
+            }, {
+              "type" : "literal",
+              "value" : "Financial"
+            } ],
+            "metadata" : {
+              "freeform" : false
+            }
+          } ],
+          "metadata" : {
+            "tableColumnId" : {
+              "1301709" : 15747012
+            },
+            "operator" : "EQUALS"
+          }
+        } ],
+        "metadata" : {
+          "unifiedVersion" : 2
+        }
+      }
+    }
+  },
+  "data" : [ [ 1781, "9DA3DE12-A183-45B2-986B-0BA4D69AF102", 1781, 1486757154, "656739", 1486757154, "656739", null, "Ruderman, Russell E.", [ "http://files.hawaii.gov/ethics/disc/2016/FinLong_8458.pdf", "Form" ], "Legislator, District 2", "Senate", "2016-01-03T00:00:00", true, false, "Financial", "2016" ]
+, [ 1782, "E0CD83AF-D899-4989-97E5-6D6186D05CBD", 1782, 1486757154, "656739", 1486757154, "656739", null, "Mizuno, John Musashi", [ "http://files.hawaii.gov/ethics/disc/2016/FinLong_8483.pdf", "Form" ], "Legislator, District 28", "House of Representatives", "2016-01-06T00:00:00", true, false, "Financial", "2016" ]
+, [ 1783, "77A64A92-2D13-434E-A11F-4B6DF7931F71", 1783, 1486757154, "656739", 1486757154, "656739", null, "Nishihara, Clarence K.", [ "http://files.hawaii.gov/ethics/disc/2016/FinLong_8484.pdf", "Form" ], "Legislator, District 17", "Senate", "2016-01-06T00:00:00", true, false, "Financial", "2016" ]
+, [ 1784, "635078E1-3D43-4A1B-BB2D-85921E147E7D", 1784, 1486757154, "656739", 1486757154, "656739", null, "Aquino, Henry James C.", [ "http://files.hawaii.gov/ethics/disc/2016/FinLong_8501.pdf", "Form" ], "Legislator, District 38", "House of Representatives", "2016-01-07T00:00:00", true, false, "Financial", "2016" ]
+, [ 1785, "4DA466FA-0488-4657-AA45-34D1596ECDB8", 1785, 1486757154, "656739", 1486757154, "656739", null, "Kong, Samuel Satoru", [ "http://files.hawaii.gov/ethics/disc/2016/FinLong_8517.pdf", "Form" ], "Legislator, District 33", "House of Representatives", "2016-01-07T00:00:00", true, false, "Financial", "2016" ]
+, [ 1786, "396799C2-27E2-4318-8440-03D0EC059482", 1786, 1486757154, "656739", 1486757154, "656739", null, "Evans, Cynthia Frances Wood", [ "http://files.hawaii.gov/ethics/disc/2016/FinLong_8521.pdf", "Form" ], "Legislator, District 7", "House of Representatives", "2016-01-10T00:00:00", true, false, "Financial", "2016" ]
+, [ 1787, "B6754DB6-3206-4A3F-B0D4-FA7022BD867D", 1787, 1486757154, "656739", 1486757154, "656739", null, "McKelvey, Angus L.K.", [ "http://files.hawaii.gov/ethics/disc/2016/FinLong_8525.pdf", "Form" ], "Legislator, District 10", "House of Representatives", "2016-01-11T00:00:00", true, false, "Financial", "2016" ]
+, [ 1788, "85870851-9627-4951-90BA-E2D6505B5BBC", 1788, 1486757154, "656739", 1486757154, "656739", null, "Tokioka, James K.", [ "http://files.hawaii.gov/ethics/disc/2016/FinLong_8526.pdf", "Form" ], "Legislator, District 15", "House of Representatives", "2016-01-11T00:00:00", true, false, "Financial", "2016" ]
+, [ 1790, "8D5C89B7-6ADB-4A4C-BFC0-7CEC59EF95A0", 1790, 1486757154, "656739", 1486757154, "656739", null, "Thielen, Laura H.", [ "http://files.hawaii.gov/ethics/disc/2016/FinLong_8580.pdf", "Form" ], "Legislator, District 25", "Senate", "2016-01-14T00:00:00", true, false, "Financial", "2016" ]
+, [ 1792, "A4687FCA-D071-443F-9C2B-A83237AC3E3D", 1792, 1486757154, "656739", 1486757154, "656739", null, "Ohno, Takashi", [ "http://files.hawaii.gov/ethics/disc/2016/FinLong_8601.pdf", "Form" ], "Legislator, District 27", "House of Representatives", "2016-01-19T00:00:00", true, false, "Financial", "2016" ]
+, [ 1793, "3C251658-9565-4039-85D9-2979C6CA6825", 1793, 1486757154, "656739", 1486757154, "656739", null, "Shimabukuro, Maile S.L.", [ "http://files.hawaii.gov/ethics/disc/2016/FinLong_8603.pdf", "Form" ], "Legislator, District 21", "Senate", "2016-01-19T00:00:00", true, false, "Financial", "2016" ]
+, [ 1794, "BA979002-AE17-4F72-ACED-BEE4A1421C41", 1794, 1486757154, "656739", 1486757154, "656739", null, "Thielen, Cynthia H.", [ "http://files.hawaii.gov/ethics/disc/2016/Kfx10Dis-10973.pdf", "Form" ], "Legislator, District 50", "House of Representatives", "2016-01-06T00:00:00", true, false, "Financial", "2016" ]
+, [ 1795, "E61A7E5B-6FA1-4E00-BB02-8D22299FB8FE", 1795, 1486757154, "656739", 1486757154, "656739", null, "Green, Joshua B.", [ "http://files.hawaii.gov/ethics/disc/2016/Kfx10Dis-10975.pdf", "Form" ], "Legislator, District 3", "Senate", "2016-01-11T00:00:00", true, false, "Financial", "2016" ]
+, [ 1796, "D9105FFD-EC05-4551-9443-889B10D87825", 1796, 1486757154, "656739", 1486757154, "656739", null, "Taniguchi, Brian T.", [ "http://files.hawaii.gov/ethics/disc/2016/FinLong_8642.pdf", "Form" ], "Legislator, District 11", "Senate", "2016-01-23T00:00:00", true, false, "Financial", "2016" ]
+, [ 1797, "3A886440-FB20-4D6A-95FA-EAC0D5BF8678", 1797, 1486757154, "656739", 1486757154, "656739", null, "Kobayashi, Bertrand Y.", [ "http://files.hawaii.gov/ethics/disc/2016/FinLong_8645.pdf", "Form" ], "Legislator, District 19", "House of Representatives", "2016-01-24T00:00:00", true, false, "Financial", "2016" ]
+, [ 1798, "6AB57362-A3FE-48ED-A621-4D8FDB627F96", 1798, 1486757154, "656739", 1486757154, "656739", null, "Ward, Gene R.", [ "http://files.hawaii.gov/ethics/disc/2016/FinLong_8646.pdf", "Form" ], "Legislator, District 17", "House of Representatives", "2016-01-24T00:00:00", true, false, "Financial", "2016" ]
+, [ 1800, "608F159C-A80C-4A48-8B27-DCC8188851A3", 1800, 1486757154, "656739", 1486757154, "656739", null, "Gabbard, Gerald Michael", [ "http://files.hawaii.gov/ethics/disc/2016/FinLong_8651.pdf", "Form" ], "Legislator, District 20", "Senate", "2016-01-25T00:00:00", true, false, "Financial", "2016" ]
+, [ 1801, "91C4D952-A8AE-4D05-9A25-FAA8B73D0005", 1801, 1486757154, "656739", 1486757154, "656739", null, "Say, Calvin K.Y.", [ "http://files.hawaii.gov/ethics/disc/2016/FinLong_8659.pdf", "Form" ], "Legislator, District 20", "House of Representatives", "2016-01-25T00:00:00", true, false, "Financial", "2016" ]
+, [ 1802, "2D9E9E73-16ED-40E7-BA47-7132DBA0243E", 1802, 1486757154, "656739", 1486757154, "656739", null, "Yamashita, Kyle T.", [ "http://files.hawaii.gov/ethics/disc/2016/Kfx10Dis-11062.pdf", "Form" ], "Legislator, District 12", "House of Representatives", "2016-01-25T00:00:00", true, false, "Financial", "2016" ]
+, [ 1803, "EE6814F7-4AB7-420E-A756-A4479EF3243B", 1803, 1486757154, "656739", 1486757154, "656739", null, "Kim, Donna Mercado", [ "http://files.hawaii.gov/ethics/disc/2016/Kfx10Dis-11081.pdf", "Form" ], "Legislator, District 14", "Senate", "2016-01-27T00:00:00", true, false, "Financial", "2016" ]
+, [ 1804, "3D5EFF51-1C19-4720-8B2E-3F560DB98342", 1804, 1486757154, "656739", 1486757154, "656739", null, "Dela Cruz, Donovan Michael", [ "http://files.hawaii.gov/ethics/disc/2016/FinLong_8696.pdf", "Form" ], "Legislator, District 22", "Senate", "2016-01-26T00:00:00", true, false, "Financial", "2016" ]
+, [ 1805, "13843A35-58AB-4B2E-8BB7-8403ACEE6BCD", 1805, 1486757154, "656739", 1486757154, "656739", null, "Luke, Sylvia J.", [ "http://files.hawaii.gov/ethics/disc/2016/FinLong_8708.pdf", "Form" ], "Legislator, District 25", "House of Representatives", "2016-01-27T00:00:00", true, false, "Financial", "2016" ]
+, [ 1806, "A3BB8A1F-FC98-42A7-B2E3-71D3F87CEC56", 1806, 1486757154, "656739", 1486757154, "656739", null, "Ichiyama, Linda Eileen", [ "http://files.hawaii.gov/ethics/disc/2016/Kfx10Dis-11111.pdf", "Form" ], "Legislator, District 32", "House of Representatives", "2016-01-27T00:00:00", true, false, "Financial", "2016" ]
+, [ 1807, "654918EF-6C46-4DDA-BC48-D717260DFD75", 1807, 1486757154, "656739", 1486757154, "656739", null, "Keith-Agaran, Gilbert S.C.", [ "http://files.hawaii.gov/ethics/disc/2016/Kfx10Dis-11112.pdf", "Form" ], "Legislator, District 5", "Senate", "2016-01-27T00:00:00", true, false, "Financial", "2016" ]
+, [ 1808, "FFD3251B-576A-490D-94FA-76FCCAF64038", 1808, 1486757154, "656739", 1486757154, "656739", null, "Woodson, Justin H.", [ "http://files.hawaii.gov/ethics/disc/2016/FinLong_8749.pdf", "Form" ], "Legislator, District 9", "House of Representatives", "2016-01-27T00:00:00", true, false, "Financial", "2016" ]
+, [ 1809, "C8598186-4A92-44F5-8FB4-066239166F4D", 1809, 1486757154, "656739", 1486757154, "656739", null, "LoPresti, Matthew S.", [ "http://files.hawaii.gov/ethics/disc/2016/FinLong_8746.pdf", "Form" ], "Legislator, District 41", "House of Representatives", "2016-01-27T00:00:00", true, false, "Financial", "2016" ]
+, [ 1810, "F14F49F7-CC12-44F2-8A11-6869DDEEB223", 1810, 1486757154, "656739", 1486757154, "656739", null, "Cachola, Romeo M.", [ "http://files.hawaii.gov/ethics/disc/2016/FinLong_8738.pdf", "Form" ], "Legislator, District 30", "House of Representatives", "2016-01-27T00:00:00", true, false, "Financial", "2016" ]
+, [ 1811, "7183E876-2ADD-41EC-B69F-6635E23BDFF9", 1811, 1486757154, "656739", 1486757154, "656739", null, "DeCoite, Lynn P.", [ "http://files.hawaii.gov/ethics/disc/2016/Kfx10Dis-11126.pdf", "Form" ], "Legislator, District 13", "House of Representatives", "2016-01-28T00:00:00", true, false, "Financial", "2016" ]
+, [ 1812, "20A7F0F8-ECE3-441F-9562-9A7767005A35", 1812, 1486757154, "656739", 1486757154, "656739", null, "Takumi, Roy M.", [ "http://files.hawaii.gov/ethics/disc/2016/FinLong_8767.pdf", "Form" ], "Legislator, District 35", "House of Representatives", "2016-01-28T00:00:00", true, false, "Financial", "2016" ]
+, [ 1813, "1D324820-6E4F-4797-9B03-C441ADDED0F5", 1813, 1486757154, "656739", 1486757154, "656739", null, "Ito, Kenneth T.", [ "http://files.hawaii.gov/ethics/disc/2016/FinLong_8761.pdf", "Form" ], "Legislator, District 49", "House of Representatives", "2016-01-28T00:00:00", true, false, "Financial", "2016" ]
+, [ 1814, "7FFD061A-CCE2-4069-9909-464E79984A28", 1814, 1486757154, "656739", 1486757154, "656739", null, "Thielen, Laura H.", [ "http://files.hawaii.gov/ethics/disc/2016/Kfx10Dis-11196.pdf", "Form" ], "Legislator, District 25", "Senate", "2016-01-29T00:00:00", true, true, "Financial", "2016" ]
+, [ 1815, "BD6CB7B5-21B2-47B4-909D-5C5E673F90DD", 1815, 1486757154, "656739", 1486757154, "656739", null, "English, J. Kalani", [ "http://files.hawaii.gov/ethics/disc/2016/Kfx10Dis-11198.pdf", "Form" ], "Legislator, District 7", "Senate", "2016-01-29T00:00:00", true, false, "Financial", "2016" ]
+, [ 1816, "B93BAF81-AD38-498B-A07A-5A48E52033D3", 1816, 1486757154, "656739", 1486757154, "656739", null, "Tokuda, Jill Naomi", [ "http://files.hawaii.gov/ethics/disc/2016/Kfx10Dis-11199.pdf", "Form" ], "Legislator, District 24", "Senate", "2016-01-29T00:00:00", true, false, "Financial", "2016" ]
+, [ 1817, "D1DCD0FC-67ED-421F-BEDF-F49439089FCE", 1817, 1486757154, "656739", 1486757154, "656739", null, "Espero, William Calip", [ "http://files.hawaii.gov/ethics/disc/2016/FinLong_8784.pdf", "Form" ], "Legislator, District 19", "Senate", "2016-01-28T00:00:00", true, false, "Financial", "2016" ]
+, [ 1818, "756ED73A-7AF1-4E18-B873-E1D0723DE78F", 1818, 1486757154, "656739", 1486757154, "656739", null, "Creagan, Richard P.", [ "http://files.hawaii.gov/ethics/disc/2016/FinLong_8786.pdf", "Form" ], "Legislator, District 5", "House of Representatives", "2016-01-28T00:00:00", true, false, "Financial", "2016" ]
+, [ 1819, "D4C680F6-5708-4779-9EFB-9D1E1DB14E01", 1819, 1486757154, "656739", 1486757154, "656739", null, "San Buenaventura, Joy A.", [ "http://files.hawaii.gov/ethics/disc/2016/FinLong_8787.pdf", "Form" ], "Legislator, District 4", "House of Representatives", "2016-01-28T00:00:00", true, false, "Financial", "2016" ]
+, [ 1820, "99EABF30-6D0D-4716-9C21-4486BECC3792", 1820, 1486757154, "656739", 1486757154, "656739", null, "Morikawa, Daynette S.P.", [ "http://files.hawaii.gov/ethics/disc/2016/FinLong_8799.pdf", "Form" ], "Legislator, District 16", "House of Representatives", "2016-01-29T00:00:00", true, false, "Financial", "2016" ]
+, [ 1821, "35D067A7-DE7B-4A4C-B040-ED41C5ED6494", 1821, 1486757154, "656739", 1486757154, "656739", null, "Inouye, Lorraine Rodero", [ "http://files.hawaii.gov/ethics/disc/2016/FinLong_8800.pdf", "Form" ], "Legislator, District 4", "Senate", "2016-01-29T00:00:00", true, false, "Financial", "2016" ]
+, [ 1822, "63B8529B-CDF2-40E7-AEE3-5170027C7C59", 1822, 1486757154, "656739", 1486757154, "656739", null, "Nishimoto, Scott Y.", [ "http://files.hawaii.gov/ethics/disc/2016/FinLong_8831.pdf", "Form" ], "Legislator, District 21", "House of Representatives", "2016-01-29T00:00:00", true, false, "Financial", "2016" ]
+, [ 1824, "BD60CC0E-F90D-4DE9-9A12-B99013E46869", 1824, 1486757154, "656739", 1486757154, "656739", null, "Baker, Rosalyn H.", [ "http://files.hawaii.gov/ethics/disc/2016/FinLong_8863.pdf", "Form" ], "Legislator, District 6", "Senate", "2016-01-29T00:00:00", true, false, "Financial", "2016" ]
+, [ 1825, "B21C27C9-AB66-4282-9D5D-45BDC8A4C036", 1825, 1486757154, "656739", 1486757154, "656739", null, "Keohokalole, Jarrett K.", [ "http://files.hawaii.gov/ethics/disc/2016/FinLong_8868.pdf", "Form" ], "Legislator, District 48", "House of Representatives", "2016-01-30T00:00:00", true, false, "Financial", "2016" ]
+, [ 1826, "5E1BF814-F825-44D0-9275-1F30A5712AC4", 1826, 1486757154, "656739", 1486757154, "656739", null, "Hashem, Mark Jun", [ "http://files.hawaii.gov/ethics/disc/2016/FinLong_8871.pdf", "Form" ], "Legislator, District 18", "House of Representatives", "2016-01-30T00:00:00", true, false, "Financial", "2016" ]
+, [ 1827, "E57B3545-53AA-4197-BB72-88E80A971C35", 1827, 1486757154, "656739", 1486757154, "656739", null, "Saiki, Scott K.", [ "http://files.hawaii.gov/ethics/disc/2016/FinLong_8877.pdf", "Form" ], "Legislator, District 26", "House of Representatives", "2016-01-31T00:00:00", true, false, "Financial", "2016" ]
+, [ 1828, "EA37CA6C-4F12-49EC-9E58-1E7EC53C1DFC", 1828, 1486757154, "656739", 1486757154, "656739", null, "Harimoto, Breene Y.", [ "http://files.hawaii.gov/ethics/disc/2016/FinLong_8878.pdf", "Form" ], "Legislator, District 16", "Senate", "2016-01-31T00:00:00", true, false, "Financial", "2016" ]
+, [ 1829, "0E76140B-9E51-4018-8D13-F961BA21C0BC", 1829, 1486757154, "656739", 1486757154, "656739", null, "Takayama, Gregg T.", [ "http://files.hawaii.gov/ethics/disc/2016/FinLong_8879.pdf", "Form" ], "Legislator, District 34", "House of Representatives", "2016-01-31T00:00:00", true, false, "Financial", "2016" ]
+, [ 1830, "C26DE78C-B6AA-4703-AA0A-DE92E592A972", 1830, 1486757154, "656739", 1486757154, "656739", null, "Choy, Isaac William", [ "http://files.hawaii.gov/ethics/disc/2016/FinLong_8882.pdf", "Form" ], "Legislator, District 23", "House of Representatives", "2016-01-31T00:00:00", true, false, "Financial", "2016" ]
+, [ 1831, "A19A1C7B-C90A-48B4-A830-2FDF6D535246", 1831, 1486757154, "656739", 1486757154, "656739", null, "Oshiro, Marcus R.", [ "http://files.hawaii.gov/ethics/disc/2016/FinLong_8884.pdf", "Form" ], "Legislator, District 46", "House of Representatives", "2016-01-31T00:00:00", true, false, "Financial", "2016" ]
+, [ 1832, "97129057-1CB8-4247-A7B0-FC3EDC6B7A40", 1832, 1486757154, "656739", 1486757154, "656739", null, "Ihara, Les S.", [ "http://files.hawaii.gov/ethics/disc/2016/FinLong_8885.pdf", "Form" ], "Legislator, District 10", "Senate", "2016-01-31T00:00:00", true, false, "Financial", "2016" ]
+, [ 1833, "6FAF1D70-35D3-4342-BEA1-A6AE3858B854", 1833, 1486757154, "656739", 1486757154, "656739", null, "Riviere, Gilbert R.", [ "http://files.hawaii.gov/ethics/disc/2016/FinLong_8886.pdf", "Form" ], "Legislator, District 23", "Senate", "2016-01-31T00:00:00", true, false, "Financial", "2016" ]
+, [ 1834, "46495520-BC64-4638-815A-1C35B5CCD3D4", 1834, 1486757154, "656739", 1486757154, "656739", null, "Har, Sharon E.", [ "http://files.hawaii.gov/ethics/disc/2016/FinLong_8890.pdf", "Form" ], "Legislator, District 42", "House of Representatives", "2016-02-01T00:00:00", true, false, "Financial", "2016" ]
+, [ 1835, "BBF6ABD9-D03D-4655-B0C6-922BD857B7A9", 1835, 1486757154, "656739", 1486757154, "656739", null, "Nakashima, Mark M.", [ "http://files.hawaii.gov/ethics/disc/2016/FinLong_8895.pdf", "Form" ], "Legislator, District 1", "House of Representatives", "2016-02-01T00:00:00", true, false, "Financial", "2016" ]
+, [ 1836, "722DFE62-D149-4388-883E-069049F0E340", 1836, 1486757154, "656739", 1486757154, "656739", null, "Belatti, Della Au", [ "http://files.hawaii.gov/ethics/disc/2016/FinShort_8896.pdf", "Form" ], "Legislator, District 24", "House of Representatives", "2016-02-01T00:00:00", true, true, "Financial", "2016" ]
+, [ 1838, "7AA6FF1C-0214-4B47-92D9-A603A71B980E", 1838, 1486757154, "656739", 1486757154, "656739", null, "Galuteria, Brickwood M.", [ "http://files.hawaii.gov/ethics/disc/2016/Kfx10Dis-11208.pdf", "Form" ], "Legislator, District 12", "Senate", "2016-01-30T00:00:00", true, false, "Financial", "2016" ]
+, [ 1839, "412DCDEC-3ABB-47CB-8102-D4D99928CA5C", 1839, 1486757154, "656739", 1486757154, "656739", null, "Souki, Joseph Mark", [ "http://files.hawaii.gov/ethics/disc/2016/FinLong_8914.pdf", "Form" ], "Legislator, District 8", "House of Representatives", "2016-02-01T00:00:00", true, false, "Financial", "2016" ]
+, [ 1840, "D0ED1D14-E20C-4A77-A3CE-2AC39C7FFBDC", 1840, 1486757154, "656739", 1486757154, "656739", null, "Belatti, Della Au", [ "http://files.hawaii.gov/ethics/disc/2016/FinLong_8887.pdf", "Form" ], "Legislator, District 24", "House of Representatives", "2016-02-01T00:00:00", true, false, "Financial", "2016" ]
+, [ 1841, "7D395EF1-6DAA-4C84-8CA6-82D0B589150A", 1841, 1486757154, "656739", 1486757154, "656739", null, "Brower, Thomas M.", [ "http://files.hawaii.gov/ethics/disc/2016/Kfx10Dis-11218.pdf", "Form" ], "Legislator, District 22", "House of Representatives", "2016-02-01T00:00:00", true, false, "Financial", "2016" ]
+, [ 1842, "300AA37A-F31F-4F4A-BA1D-EBE9E9BD0509", 1842, 1486757154, "656739", 1486757154, "656739", null, "Johanson, Aaron L.", [ "http://files.hawaii.gov/ethics/disc/2016/Kfx10Dis-11243.pdf", "Form" ], "Legislator, District 31", "House of Representatives", "2016-02-01T00:00:00", true, false, "Financial", "2016" ]
+, [ 1843, "F39CA7E6-710F-472C-9723-5D2021605AC3", 1843, 1486757154, "656739", 1486757154, "656739", null, "Onishi, Richard H.K.", [ "http://files.hawaii.gov/ethics/disc/2016/FinLong_8920.pdf", "Form" ], "Legislator, District 3", "House of Representatives", "2016-02-01T00:00:00", true, false, "Financial", "2016" ]
+, [ 1844, "34633B4A-ABE8-434A-8887-844B9824095A", 1844, 1486757154, "656739", 1486757154, "656739", null, "Tupola, Andria P.", [ "http://files.hawaii.gov/ethics/disc/2016/FinLong_8926.pdf", "Form" ], "Legislator, District 43", "House of Representatives", "2016-02-01T00:00:00", true, false, "Financial", "2016" ]
+, [ 1845, "65A82A28-06F7-4D53-A168-430CD503BDB7", 1845, 1486757154, "656739", 1486757154, "656739", null, "Lowen, Nicole E.", [ "http://files.hawaii.gov/ethics/disc/2016/FinLong_8927.pdf", "Form" ], "Legislator, District 6", "House of Representatives", "2016-02-01T00:00:00", true, false, "Financial", "2016" ]
+, [ 1846, "4013C6E5-D763-4BD5-A6D5-C40B471C1AFB", 1846, 1486757154, "656739", 1486757154, "656739", null, "Kidani, Michelle N.", [ "http://files.hawaii.gov/ethics/disc/2016/FinLong_8932.pdf", "Form" ], "Legislator, District 18", "Senate", "2016-02-01T00:00:00", true, false, "Financial", "2016" ]
+, [ 1847, "C2D41D31-B146-4677-B540-2CF61362EFE7", 1847, 1486757154, "656739", 1486757154, "656739", null, "Creagan, Richard P.", [ "http://files.hawaii.gov/ethics/disc/2016/FinShort_8933.pdf", "Form" ], "Legislator, District 5", "House of Representatives", "2016-02-01T00:00:00", true, true, "Financial", "2016" ]
+, [ 1848, "8489DADE-D916-45E0-A244-0E7C1E1F3470", 1848, 1486757154, "656739", 1486757154, "656739", null, "Kouchi, Ronald D.", [ "http://files.hawaii.gov/ethics/disc/2016/FinLong_8938.pdf", "Form" ], "Legislator, District 8", "Senate", "2016-02-01T00:00:00", true, false, "Financial", "2016" ]
+, [ 1849, "44AFD67C-FC50-4B7A-8873-D26A2D9F01D5", 1849, 1486757154, "656739", 1486757154, "656739", null, "Cullen, Ty J.K.", [ "http://files.hawaii.gov/ethics/disc/2016/FinLong_8940.pdf", "Form" ], "Legislator, District 39", "House of Representatives", "2016-02-01T00:00:00", true, false, "Financial", "2016" ]
+, [ 1850, "20BE23EE-4F1E-4B02-B054-56AF0F1B69FA", 1850, 1486757154, "656739", 1486757154, "656739", null, "Ing, Mark Kaniela", [ "http://files.hawaii.gov/ethics/disc/2016/FinLong_8941.pdf", "Form" ], "Legislator, District 11", "House of Representatives", "2016-02-01T00:00:00", true, false, "Financial", "2016" ]
+, [ 1851, "23E6D31B-D40F-48EE-B351-74EFEE36FD9A", 1851, 1486757154, "656739", 1486757154, "656739", null, "Wakai, Glenn Satoru", [ "http://files.hawaii.gov/ethics/disc/2016/FinLong_8944.pdf", "Form" ], "Legislator, District 15", "Senate", "2016-02-01T00:00:00", true, false, "Financial", "2016" ]
+, [ 1852, "5C0954EC-80B9-44DD-B9D6-3A8E3B5CF1A4", 1852, 1486757154, "656739", 1486757154, "656739", null, "Matsumoto, Lauren K.", [ "http://files.hawaii.gov/ethics/disc/2016/FinLong_8945.pdf", "Form" ], "Legislator, District 45", "House of Representatives", "2016-02-01T00:00:00", true, false, "Financial", "2016" ]
+, [ 1853, "D9961735-F94A-4BD3-ACAB-3C7ABFD662DD", 1853, 1486757154, "656739", 1486757154, "656739", null, "Fukumoto Chang, Beth Keiko", [ "http://files.hawaii.gov/ethics/disc/2016/FinLong_8946.pdf", "Form" ], "Legislator, District 36", "House of Representatives", "2016-02-01T00:00:00", true, false, "Financial", "2016" ]
+, [ 1854, "28FE2711-519A-49A1-86BC-4B1B9535D9B4", 1854, 1486757154, "656739", 1486757154, "656739", null, "McDermott, Robert C.", [ "http://files.hawaii.gov/ethics/disc/2016/FinLong_8950.pdf", "Form" ], "Legislator, District 40", "House of Representatives", "2016-02-01T00:00:00", true, false, "Financial", "2016" ]
+, [ 1855, "D88DD9ED-EA1D-4444-A831-7E3C0F5712C7", 1855, 1486757154, "656739", 1486757154, "656739", null, "Lee, Christopher Kalani Cushman", [ "http://files.hawaii.gov/ethics/disc/2016/FinLong_8951.pdf", "Form" ], "Legislator, District 51", "House of Representatives", "2016-02-01T00:00:00", true, false, "Financial", "2016" ]
+, [ 1858, "A7995A3A-7EDA-4050-AE0D-138DFAA3050A", 1858, 1486757154, "656739", 1486757154, "656739", null, "Matsumoto, Lauren K.", [ "http://files.hawaii.gov/ethics/disc/2016/FinShort_8961.pdf", "Form" ], "Legislator, District 45", "House of Representatives", "2016-02-03T00:00:00", true, true, "Financial", "2016" ]
+, [ 1870, "DEE61579-A285-4776-A4BF-686142ED4EE3", 1870, 1486757154, "656739", 1486757154, "656739", null, "Green, Joshua B.", [ "http://files.hawaii.gov/ethics/disc/2016/Kfx10Dis-11474.pdf", "Form" ], "Legislator, District 3", "Senate", "2016-03-09T00:00:00", true, true, "Financial", "2016" ]
+, [ 1877, "3E0349EF-930C-4559-B40C-06229243CAB3", 1877, 1486757154, "656739", 1486757154, "656739", null, "Kahele, Kaialii", [ "http://files.hawaii.gov/ethics/disc/2016/Kfx10Dis-11734.pdf", "Form" ], "Legislator, District 1", "Senate", "2016-03-31T00:00:00", true, false, "Financial", "2016" ]
+, [ 2152, "928CA1C0-A60B-4937-AB83-C49C87011871", 2152, 1486757154, "656739", 1486757154, "656739", null, "Yamane, Ryan Ichiro", [ "http://files.hawaii.gov/ethics/disc/2016/FinLong_8861.pdf", "Form" ], "Legislator, District 37", "House of Representatives", "2016-01-29T00:00:00", true, false, "Financial", "2016" ]
+, [ 2216, "04ABF6B1-AD8E-4C35-88B9-BD243A7EBAFB", 2216, 1486757154, "656739", 1486757154, "656739", null, "Morikawa, Daynette S.P.", [ "http://files.hawaii.gov/ethics/disc/2016/FinShort_11303.pdf", "Form" ], "Legislator, District 16", "House of Representatives", "2016-07-07T00:00:00", true, true, "Financial", "2016" ]
+, [ 2269, "795EBA90-BFFF-4D82-A763-1B97B58CDFD7", 2269, 1486757154, "656739", 1486757154, "656739", null, "Kahele, Kaialii", [ "http://files.hawaii.gov/ethics/disc/2016/FinShort_11350.pdf", "Form" ], "Legislator, District 1", "Senate", "2016-07-20T00:00:00", true, false, "Financial", "2016" ]
+, [ 2360, "A2EC0766-9207-4C03-B3B7-54E518408DCF", 2360, 1486757154, "656739", 1486757154, "656739", null, "Wakai, Glenn Satoru", [ "http://files.hawaii.gov/ethics/disc/2016/FinShort_11426.pdf", "Form" ], "Legislator, District 15", "Senate", "2016-08-01T00:00:00", true, false, "Financial", "2016" ]
+, [ 2410, "A836A4C1-6879-4801-9677-9444386436FE", 2410, 1486757154, "656739", 1486757154, "656739", null, "McDermott, Robert C.", [ "http://files.hawaii.gov/ethics/disc/2016/FinShort_11680.pdf", "Form" ], "Legislator, District 40", "House of Representatives", "2016-10-07T00:00:00", true, true, "Financial", "2016" ]
+, [ 2411, "F9F4CC5D-4535-412E-9F5C-6DE8902648B5", 2411, 1486757154, "656739", 1486757154, "656739", null, "McDermott, Robert C.", [ "http://files.hawaii.gov/ethics/disc/2016/FinShort_11681.pdf", "Form" ], "Legislator, District 40", "House of Representatives", "2016-10-07T00:00:00", true, true, "Financial", "2016" ]
+ ]
+}
