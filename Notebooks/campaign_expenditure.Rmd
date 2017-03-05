@@ -1,0 +1,81 @@
+---
+title: "Campaigns and Expenditures"
+author: "Carlos V. A. Silva"
+date: "3/4/2017"
+output:
+  html_document:
+    css: ~/OneDrive/Academia/Projects/inkCSS/res/css/style.css
+    highlight: zenburn  
+    toc: yes
+    toc_depth: 5
+  word_document: default
+---
+
+# Source
+
+ * [Expenditures Data](http://ags.hawaii.gov/campaign/cc/view-searchable-data/expenditures-made/)
+ * [Campaign Contribution Data](http://ags.hawaii.gov/campaign/cc/view-searchable-data/campaign-contributions-received/)
+ * [Financial Disclosures](http://ethics.hawaii.gov/2016-legislator-financial/)
+ 
+Downloaded as .csv, directly from the websites.
+
+```{r Load .csv,warning=FALSE,message=FALSE}
+library(data.table)
+campaign <- fread("~/Downloads/Campaign_Contributions_Received_By_Hawaii_State_and_County_Candidates_From_November_8__2006_Through_November_8__2016.csv")
+#expenditure <- fread("~/Downloads/Expenditures_Made_By_Hawaii_State_and_County_Candidates_From_November_8__2006_Through_November_8__2016.csv")
+#financial_disclosure <- fread("~/Downloads/Hawaii_State_Ethics_Commission_s_2016_Legislator_Financial_Disclosure.csv")
+
+```
+
+```{r Summary of Data Info,warning=FALSE,message=FALSE,echo=FALSE}
+#summary(as.factor(campaign$`Candidate Name`))
+#summary(as.factor(expenditure$`Candidate Name`))
+```
+
+# Fiscal Year of 2016
+
+## Total Gifts by Candidates and Contributors
+
+```{r Gifts by Contributors for 2016,warning=FALSE,message=FALSE}
+#Rename columns being used
+colnames(campaign)[1] <- "candidate_name"
+colnames(campaign)[3] <- "contributor_name"
+colnames(campaign)[4] <- "date"
+colnames(campaign)[5] <- "amount"
+
+#Extract year and month
+campaign$year <- year(as.POSIXlt(campaign$date, format="%m/%d/%Y"))
+campaign$month <- month(as.POSIXlt(campaign$date, format="%m/%d/%Y"))
+
+#Year of 2015 and 2016
+campaign.2015 <- campaign[year==2015]
+campaign.2016 <- campaign[year==2016]
+
+#Fiscal Year
+campaign.2015 <- campaign.2015[month==7 | month==8 | month==9 | month==10 | month==11 | month==12]
+campaign.2016 <- campaign.2016[month==1 | month==2 | month==3 | month==4 | month==5 | month==6]
+campaign <- rbind(campaign.2015,campaign.2016)
+
+#Remove $
+campaign$amount <- as.numeric(gsub("\\$", "", campaign$amount))
+
+#Group by candidates and contributors the total amount of all their gifts in 2016, 
+
+gifts <- campaign[, sum(amount, na.rm = TRUE),by = c("candidate_name","contributor_name")]
+colnames(gifts)[3] <- "gift"
+
+#Sort by contributor, and gift
+gifts <- gifts[order(gift,candidate_name,contributor_name,decreasing=TRUE),]
+
+```
+
+##Gift Network
+
+```{r Show Contributions,warning=FALSE,message=FALSE}
+library(knitr)
+kable(head(gifts))
+```
+
+
+![fiscal_year](/Users/carlos/Desktop/fiscal_year.png)
+
