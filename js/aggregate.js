@@ -118,7 +118,9 @@ Promise
       },
       template: `
       <div>
-        <h1>Contibutors</h1>
+        <h1>Legislators</h1>
+        <p>This is a list of legislators and whether or not a certain dataset
+           exists for that legislator</p>
         <article :style="{display: 'flex', flexWrap: 'wrap'}">
 
           <div v-for="(data, name) in data" :style="{flex: '0 0 25%'}">
