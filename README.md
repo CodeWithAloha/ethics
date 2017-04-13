@@ -1,18 +1,21 @@
 # ethics
-Ethics Campaign Spending Commision
 
-# Endpoints
+> A Vue.js project
 
-## Gift Disclosure 2016
-https://data.hawaii.gov/api/views/jtrr-gt6a/rows.json?accessType=DOWNLOAD
+## Build Setup
 
-## Financial Disclosure 2016
-https://data.hawaii.gov/api/views/gcs8-gqvd/rows.json?accessType=DOWNLOAD
+``` bash
+# install dependencies
+npm install
 
-## Loans Received By Hawaii State and County Candidates From November 8, 2006 Through November 8, 2016
+# serve with hot reload at localhost:8080
+npm run dev
 
-https://data.hawaii.gov/api/views/yf4f-x3r4/rows.json?accessType=DOWNLOAD
+# build for production with minification
+npm run build
 
-## Loans Received By Hawaii State and County Candidates From November 8, 2006 Through November 8, 2016
+# build for production and view the bundle analyzer report
+npm run build --report
+```
 
-https://data.hawaii.gov/api/views/yf4f-x3r4/rows.json?accessType=DOWNLOAD
+For detailed explanation on how things work, checkout the [guide](http://vuejs-templates.github.io/webpack/) and [docs for vue-loader](http://vuejs.github.io/vue-loader).
