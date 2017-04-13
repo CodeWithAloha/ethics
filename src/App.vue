@@ -1,14 +1,14 @@
 <template>
   <div id="app">
-    <img src="./assets/logo.png">
-    <router-view></router-view>
+    <router-view :data="data"></router-view>
   </div>
 </template>
 
 <script>
 export default {
-  name: 'app'
-}
+  props: ["data"],
+  name: "app"
+};
 </script>
 
 <style>
